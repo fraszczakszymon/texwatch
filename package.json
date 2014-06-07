@@ -1,0 +1,10 @@
+{
+  "name": "texwatch",
+  "repository": "git@bitbucket.org:fraszczakszymon/texwatch.git",
+  "version": "0.0.1",
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-shell": "~0.7.0",
+    "grunt-contrib-watch": "~0.6.0"
+  }
+}
