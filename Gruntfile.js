@@ -10,7 +10,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         watch: {
             src: {
-                files: [ basePath + "/*.tex" ],
+                files: [ basePath + "/*.tex", basePath + "/**/*.png", basePath + "/**/*.jpg", basePath + "/**/*.gif" ],
                 tasks: [ "shell:compile" ]
             }
         },
