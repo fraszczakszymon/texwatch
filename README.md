@@ -1,28 +1,28 @@
-texwatch
-========
+# texwatch
 
 Simple watcher for LaTeX files. Compiler pdflatex will be runned if some *.tex file has changed in current directory.
 
-### Installation
+## Installation
 
 ```
-$ git clone git@bitbucket.org:fraszczakszymon/texwatch.git
-$ cd texwatch
-$ npm install
+git clone git@bitbucket.org:fraszczakszymon/texwatch.git
+cd texwatch
+npm install
 ```
 
-Add alias *texwatch* to your bash:
+Add alias *texwatch* to your bash (file: ~/bashrc):
 
 ```
 alias texwatch='grunt --gruntfile /path/to/texwatch/Gruntfile.js watch:src --basePath="`pwd`"'
 ```
 
-### Dependencies
+## Dependencies
 
 ```
-# apt-get install texlive
+npm install -g grunt-cli
+apt-get install texlive
 ```
 
-### Usage
+## Usage
 
 Just run command *texwatch* in directory where you are working on *.tex.
