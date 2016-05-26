@@ -5,7 +5,7 @@ Simple watcher for LaTeX files. Compiler pdflatex will be runned if some *.tex f
 ## Installation
 
 ```
-git clone git@bitbucket.org:fraszczakszymon/texwatch.git
+git clone git@github.com:fraszczakszymon/texwatch.git
 cd texwatch
 npm install
 ```
